@@ -57,7 +57,7 @@ function ratingsHTML(rating) {
     ratingHTML += '<i class="fas fa-star"></i>\n';
   }
   if (!Number.isInteger(rating)) {
-    ratingHTML =+ '<i class="fas fa-star-half-alt"></i>\n';
+    ratingHTML += '<i class="fas fa-star-half-alt"></i>\n';
   }
   return ratingHTML;
 }
